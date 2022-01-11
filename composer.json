@@ -1,0 +1,7 @@
+{
+    "require": {
+        "leafs/leaf": "dev-v3.x-dev",
+        "leafs/bareui": "^1.0",
+        "vlucas/phpdotenv": "^5.4"
+    }
+}

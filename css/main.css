@@ -1,0 +1,36 @@
+body{
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+input{
+  font-size: 10vh;
+  margin-right: 1vw;
+  margin-left: 1vw;
+}
+h1{
+  font-size: 15vh;
+  margin: 0.5vh;
+}
+.form{
+  margin-bottom: 5vh;
+}
+
+.darkmode{
+  background-color: #2b2e38;
+  color: white;
+}
+.h1-dark{
+  text-emphasis-color: white;
+  text-emphasis: 1px;
+}
+.darkmode-container{
+  margin: auto;
+  width: 2vw;
+  margin-bottom: 3vh;
+}
+.button{
+  width: 2vw;
+}
+.button:hover{
+  cursor: pointer;
+}

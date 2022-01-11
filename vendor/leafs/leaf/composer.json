@@ -1,0 +1,41 @@
+{
+	"name": "leafs/leaf",
+	"description": "Simple, performant and powerful PHP micro-framework for rapid web app & API development",
+	"keywords": [
+		"microframework",
+		"rest",
+		"router",
+		"leaf",
+		"php",
+		"framework"
+	],
+	"homepage": "https://leafphp.dev",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Michael Darko",
+			"email": "mickdd22@gmail.com",
+			"homepage": "https://mychi.netlify.app",
+			"role": "Developer"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Leaf\\": "src"
+		},
+		"files": [
+			"src/functions.php"
+		]
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"require": {
+		"leafs/http": "^1.1",
+		"leafs/router": "^0.1.4",
+		"leafs/anchor": "^1.1"
+	},
+	"require-dev": {
+		"pestphp/pest": "^1.21"
+	}
+}
