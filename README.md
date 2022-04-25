@@ -1,7 +1,7 @@
 # Weather
 
 A very simple weather app that is built on leaf and the Open Weather Map and
-Map Quest api.
+Map Quest api that may or may not work.
 
 ## Setup
 
